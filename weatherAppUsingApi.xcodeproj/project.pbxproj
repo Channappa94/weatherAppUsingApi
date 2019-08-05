@@ -12,6 +12,7 @@
 		490EA71C22F8B26100D9A77D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490EA71A22F8B26100D9A77D /* Main.storyboard */; };
 		490EA71E22F8B26300D9A77D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490EA71D22F8B26300D9A77D /* Assets.xcassets */; };
 		490EA72122F8B26300D9A77D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490EA71F22F8B26300D9A77D /* LaunchScreen.storyboard */; };
+		49C9101622F8CF5A00B8FCB6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C9101522F8CF5A00B8FCB6 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		490EA71D22F8B26300D9A77D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490EA72022F8B26300D9A77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490EA72222F8B26300D9A77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C9101522F8CF5A00B8FCB6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C9101622F8CF5A00B8FCB6 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				490EA71522F8B26100D9A77D /* weatherAppUsingApi */,
 				490EA71422F8B26100D9A77D /* Products */,
+				49C9101422F8CF5A00B8FCB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				490EA72222F8B26300D9A77D /* Info.plist */,
 			);
 			path = weatherAppUsingApi;
+			sourceTree = "<group>";
+		};
+		49C9101422F8CF5A00B8FCB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49C9101522F8CF5A00B8FCB6 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
