@@ -41,9 +41,7 @@ class ViewController: UIViewController {
                             }else{
                                 do{
                                     var jsonResult = try JSONSerialization.jsonObject(with: unWrappedData, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary
-                                    
                                     print(jsonResult!["base"] as? String)
-                                    
                                     let weather = jsonResult?["weather"] as? NSArray
                                     
                                     let weatherItem = weather?[0] as? NSDictionary
